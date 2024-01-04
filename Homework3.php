@@ -1,0 +1,22 @@
+<?php
+$a='true';
+$b=false;
+    var_dump($a!=$b);
+    var_dump($a!==$b);
+$string1=(int)'1368';
+$string2=(float)'28.64';
+    var_dump($string1==$string2);
+    var_dump($string1===$string2);
+$string3=(bool)'homework';
+$string4=(bool)1345;
+    var_dump($string3==$string4);
+    var_dump($string3===$string4);
+$number1=36;
+$number2=107;
+    var_dump($number1<$number2);
+    var_dump($number1>$number2);
+    var_dump($number1<=>$number2);
+$number3=102;
+$number4=&$number3;
+    var_dump($number3<=$number4);
+    var_dump($number3>=$number4);
